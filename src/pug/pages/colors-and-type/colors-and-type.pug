@@ -1,0 +1,14 @@
+extends ../../layout/uikit
+
+block variables
+  - var title = 'Colors & Type';
+  - var description = 'FSD frontend education program. The 2nd task';
+  - var pageClass = 'ui-colors';
+
+block content
+  section
+    .container
+      include ../includes/module-template/module-template
+      +item('item title', 'item descr')
+      +item('item title', 'item descr')
+      +item('item title', 'item descr')
