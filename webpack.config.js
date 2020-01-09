@@ -16,7 +16,7 @@ import devconfig from './webpack/dev.config';
 
 const PATHS = {
   src: join(__dirname, './src'),
-  dist: join(__dirname, './dist'),
+  dist: join(__dirname, './docs'),
   img: join(__dirname, './src/pug/includes/*'),
   assets: 'assets/',
 };
