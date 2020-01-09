@@ -1,4 +1,5 @@
-extends ../../layout/uikit
+extends ../layout/uikit
+include ../includes/color/color
 
 block variables
   - var title = 'Colors & Type';
@@ -6,6 +7,9 @@ block variables
   - var pageClass = 'ui-colors';
 
 block content
+  .colors
+    +color('Dark Shade 100%', '#1F2041')
+    +color('Dark Shade 75%', '#1F2041')
   section
     .container
       include ../includes/module-template/module-template

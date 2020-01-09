@@ -69,11 +69,6 @@ const common = merge([
         template: `${PAGES_DIR}/${page}`,
         filename: `./${page.replace(/\.pug/, '.html')}`,
       })),
-      new HtmlWebpackPlugin({
-        template: `${PAGES_DIR}/page-template/page-template.pug`,
-        filename: './page-template.html',
-        inject: true,
-      }),
     ],
   },
   pug(),
