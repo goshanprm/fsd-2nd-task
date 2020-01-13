@@ -1,5 +1,6 @@
-mixin color(title, hex)
+mixin color(colorTitle, colorStyle, colorHex)
   .color
-    .color__example(style=`background-color: ${hex}`)
-    .color__title= title
-    .color__value= hex
+    .color__example(style=`background-color: ${colorStyle}`)
+    .color__title= colorTitle
+      br
+      span.color__value= colorHex
