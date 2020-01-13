@@ -1,5 +1,6 @@
 extends ../layout/uikit
 include ../includes/color/color
+include ../includes/type/type
 
 block variables
   - var title = 'Colors & Type';
@@ -16,3 +17,8 @@ block content
       +color('Dark Shade 5%', 'rgba(31, 32, 65, 0.05)', '#1F2041')
       +color('Purple', '#BC9CFF', '#BC9CFF')
       +color('Green', '#6FCF97', '#6FCF97')
+    .types
+      +type('type_size_h1', 'H1', 'This one is the sub-section or widget title')
+      +type('type_size_h2', 'H2', 'Next one is the item title inside widgets')
+      +type('type_size_h3', 'H3', 'This is a label or CTA text')
+      +type('type_size_body', 'Body', 'This is the body text which is used for most of the design, like paragraphs, lists, etc.')
