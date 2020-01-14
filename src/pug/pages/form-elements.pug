@@ -1,0 +1,13 @@
+extends ../layout/uikit
+include ../includes/form-text-field/form-text-field
+
+block variables
+  - var title = 'Form Elements';
+  - var description = 'FSD frontend education program. The 2nd task';
+  - var pageClass = 'ui-form-elements';
+
+block content
+  .container
+    .row
+      .elements
+        +text-field('Text Field', 'Default', 'form-text-field_state_default', 'Email', '')

@@ -1,0 +1,5 @@
+mixin text-field(fieldLabel, fieldSpan, fieldState, fieldPlaceholder, fieldValue)
+  .form-text-field
+    label.form-text-field__label= fieldLabel
+      span.form-text-field__span= fieldSpan
+    input(type="text" class=`form-text-field__input ${fieldState}` placeholder=`${fieldPlaceholder}` value=`${fieldValue}`)
