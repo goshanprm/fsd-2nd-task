@@ -9,5 +9,6 @@ block variables
 block content
   .container
     .row
-      .elements
-        +text-field('Text Field', 'Default', 'form-text-field_state_default', 'Email', '')
+      .form-elements
+        +text-field('Text Field', 'Default', 'form-text-field_state_default', 'Email', '')(class="form-elements__text-field")
+        +text-field('Text Field', 'Hover / Focus', 'form-text-field_state_focus', 'Email', 'This is pretty awesome')(class="form-elements__text-field")
