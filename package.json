@@ -55,5 +55,9 @@
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1",
     "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "item-quantity-dropdown": "^2.0.2",
+    "jquery": "^3.4.1"
   }
 }
