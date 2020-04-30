@@ -58,6 +58,6 @@
   },
   "dependencies": {
     "item-quantity-dropdown": "^2.0.2",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
